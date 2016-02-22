@@ -13,9 +13,9 @@ RUN \
 # Install Java 
 WORKDIR /tmp
 RUN \
-    wget --no-cookies --no-check-certificate --header "Cookie: oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u72-b15/jre-8u72-linux-x64.rpm" && \
-    rpm -ivh jre-8u72-linux-x64.rpm  && \
-    rm jre-8u72-linux-x64.rpm
+    wget --no-cookies --no-check-certificate --header "Cookie: oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u74-b15/jre-8u74-linux-x64.rpm" && \
+    rpm -ivh jre-8u74-linux-x64.rpm  && \
+    rm jre-8u74-linux-x64.rpm
 
 # Install tomcat
 WORKDIR /usr/local
